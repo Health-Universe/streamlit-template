@@ -1,0 +1,43 @@
+[project]
+name = "streamlit-template"
+version = "v1.0.0"
+description = "Starter Streamlit template deployable to Health Universe."
+
+readme = "README.md"
+license = { file = "LICENSE.txt" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+requires-python = ">=3.9"
+
+dependencies = [
+    "streamlit~=1.25.0",
+    "pandas~=2.0.3",
+    "pydantic~=2.2.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black~=23.7.0",
+    "isort~=5.12.0",
+    "autoflake~=2.2.0",
+    "pre-commit~=3.3.3",
+]
+
+[project.urls]
+homepage = "https://github.com/Health-Universe/streamlit-template"
+tracker = "https://github.com/Health-Universe/streamlit-template/issues"
+
+[tool.black]
+color = true
+target-version = ['py310']
+
+[tool.isort]
+profile = "black"
+known_first_party = 'src'
+force_to_top = ["annotations"]
+include_trailing_comma = true
+multi_line_output = 3
+combine_as_imports = true
