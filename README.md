@@ -1,4 +1,5 @@
-# streamlit-template
+# Health Universe - Streamlit Template 📊
+
 This template provides a starter Streamlit application for deploying to Health Universe.
 
 ## Local Quickstart
