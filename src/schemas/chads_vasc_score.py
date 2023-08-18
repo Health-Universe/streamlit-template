@@ -1,8 +1,7 @@
 """Provides input and output schemas for calculating CHA₂DS₂-VASc score."""
 from typing import Literal
 
-from pydantic import BaseModel
-from pydantic import Field
+from pydantic import BaseModel, Field
 
 
 class ChadsVascInput(BaseModel):

@@ -1,8 +1,7 @@
 import streamlit as st
 
 from schemas.chads_vasc_score import ChadsVascInput
-from utils.data_loader import df
-from utils.data_loader import unpack_and_calc_cvs
+from utils.data_loader import df, unpack_and_calc_cvs
 
 st.set_page_config(
     page_title="Demo",
