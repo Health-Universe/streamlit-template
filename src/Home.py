@@ -22,7 +22,7 @@ st.subheader("Structure")
 st.markdown(
     """
 The application is organized into a modular structure to enhance maintainability and scalability.
-The directory structure includes a main Home.py file, a src module, and submodules such as
+The directory structure includes a main home.py file, a src module, and submodules such as
 components, config, pages, and utils.
 
 ```plaintext
@@ -33,8 +33,8 @@ components, config, pages, and utils.
     │   ├── config/
     │   │   └── __init__.py
     │   ├── pages/
-    │   │   ├── 1_Demo.py
-    │   │   ├── 2_Deploy.py
+    │   │   ├── 1_demo.py
+    │   │   ├── 2_deploy.py
     │   │   └── __init__.py
     │   ├── schemas/
     │   │   ├── chads_vasc_score.py
@@ -43,7 +43,7 @@ components, config, pages, and utils.
     │   │   ├── data_loader.py
     │   │   └── __init__.py
     │   └── __init__.py
-    │── Home.py
+    │── home.py
     └── __init__.py
 ```
 """
