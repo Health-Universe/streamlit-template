@@ -1,5 +1,4 @@
-streamlit~=1.25.0
-pandas~=2.0.3
-pydantic~=2.2.1
+streamlit==1.26.0
+pydantic==2.2.1
 # Include any other libraries required by your model.
 
